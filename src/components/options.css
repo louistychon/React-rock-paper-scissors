@@ -1,0 +1,38 @@
+.pierre, .papier,.ciseau{
+    background-color: white;
+    border-radius: 50%;
+    padding: 30px;
+}
+
+.pierre{
+    border:20px solid #db3e58;
+}
+
+.papier{
+    border:20px solid #5371f5;
+}
+
+.ciseau{
+    border:20px solid #eca721;
+}
+
+.row1choices{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row2choices{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 10%;
+  
+}
+
+.container-mainun{
+    width:30vw;
+    background-image: url("../../src/design/images/bg-triangle.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+}

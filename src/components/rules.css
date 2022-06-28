@@ -1,0 +1,35 @@
+.box-modal{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content:center;
+    align-items: center;
+    height: 50vh;
+    position: absolute; 
+    top: 25%;
+    left: 40%;
+    width: 20%;
+    margin: auto;
+    background-color: white;
+    border-radius: 15%;
+    border: none;
+}
+
+#modal-modal-title{
+    font-size: 2em;
+    text-align: left;
+    margin-bottom: 8vh;
+}
+
+.rules{
+    position: absolute !important;
+    bottom:0 !important;
+    right:0 !important;
+    background:transparent !important;
+    border:2px solid white !important;
+    border-radius: 15px !important;
+    padding: 15px !important;
+    width: 10vw !important;
+    margin: 15px !important;
+    color:white !important;
+}

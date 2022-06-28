@@ -1,0 +1,46 @@
+body{
+    background-color: #182243;
+    background-image: "../design/images/bg-triangle.svg";
+}
+
+
+.flex-gameboard{
+    display:flex; 
+    justify-content: space-around;
+    width: 80vw;
+    align-items: center;
+    align-content: center;
+    height: 60vh;
+}
+
+.container-mainun, .container-maindeux{
+    width: 50px;
+}
+
+.comptevictoires{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    width:80%;
+    margin: auto;
+    line-height: 0.2;
+    border: 2px solid white;
+    border-radius: 15px;
+    height: 20%;
+    color: white;
+}
+
+.buttonvictoires>button{
+    height:15vh;
+    width:100%;
+    
+}
+
+.buttonvictoires{
+    width:25%;
+}
+
+.buttonvictoires>button>span{
+    font-size: 3em;
+}

@@ -30,6 +30,10 @@
   
 }
 
+.vs, .container-maindeux{
+    display: none;
+}
+
 .container-mainun{
     width:30vw;
     background-image: url("../../src/design/images/bg-triangle.svg");

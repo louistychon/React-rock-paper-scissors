@@ -7,15 +7,12 @@ body{
 .flex-gameboard{
     display:flex; 
     justify-content: space-around;
-    width: 80vw;
+    width: 100vw;
     align-items: center;
     align-content: center;
     height: 60vh;
 }
 
-.container-mainun, .container-maindeux{
-    width: 50px;
-}
 
 .comptevictoires{
     display: flex;

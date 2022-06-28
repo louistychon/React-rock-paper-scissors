@@ -18,7 +18,7 @@ function randomsign() {
 export default class Maindeux extends React.Component{
     render() {
         return(
-    <div>
+    <div className="container-maindeux">
       {randomsign()}
     </div>)
     }

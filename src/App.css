@@ -7,7 +7,7 @@ body{
 .flex-gameboard{
     display:flex; 
     justify-content: space-around;
-    width: 100vw;
+    width: 92vw;
     align-items: center;
     align-content: center;
     height: 60vh;

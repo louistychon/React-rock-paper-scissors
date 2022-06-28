@@ -19,6 +19,7 @@ export default class Maindeux extends React.Component{
     render() {
         return(
     <div className="container-maindeux">
+        <p className="thehousepicked">The house picked</p>
       {randomsign()}
     </div>)
     }

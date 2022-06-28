@@ -25,17 +25,44 @@
 .row2choices{
     display:flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-bottom: 10%;
+    width: 25vw;
+
   
 }
+.container-maindeux>div{
+    width: 150px;
+}
 
-.vs, .container-maindeux{
+.vs, .container-maindeux, .youpicked{
     display: none;
 }
 
+.youpicked, .thehousepicked{
+    text-align: center;
+    font-size: 2em; 
+    color: white; 
+}
+
+
+.presultat{
+    font-size: 3em; 
+    color: white;
+    margin-block-end: 0.5em; 
+}
+
+.replay{
+    display:block;
+    margin: auto;
+    font-size: 2em;
+    color: #db3e58; 
+    border-radius: 15%;
+    padding: 10%;
+    background: white;
+    border: 2px solid white;
+}
 .container-mainun{
-    width:30vw;
     background-image: url("../../src/design/images/bg-triangle.svg");
     background-position: center;
     background-repeat: no-repeat;

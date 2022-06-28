@@ -10,23 +10,6 @@ import rules from "../design/images/image-rules.svg";
 
 export let possibilite = [prock, ppaper, pscissors]
 
-let choice = "";
-
-function choixjoueur(){
-    if(choice === ""){
-        return (prock)
-    }
-    else if(choice === "rock"){
-        return prock;
-    }else if(choice === "paper"){
-        return ppaper;
-    }else if(choice === "scissors"){
-        return pscissors;
-    }else{
-        return 'error';
-    }
-}
-
 
 export default class Mainun extends React.Component{
     render() {

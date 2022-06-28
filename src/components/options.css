@@ -27,12 +27,11 @@
     align-items: center;
     justify-content: space-between;
     margin-bottom: 10%;
-    width: 25vw;
-
-  
 }
 .container-maindeux>div{
     width: 150px;
+    margin: auto; 
+    display: block;
 }
 
 .vs, .container-maindeux, .youpicked{
